@@ -1,0 +1,25 @@
+:root {
+  --bg-primary-clear: #ffffff;
+  --bg-primary-weak: #fafafa;
+  --bg-secondary: rgba(20, 20, 20, 0.04);
+  --bg-brand: #ffe600;
+  --bg-surface-tertiary: rgba(20, 20, 20, 0.1);
+  --bg-button-tertiary: rgba(20, 20, 20, 0.08);
+  --bg-button-disabled: rgba(20, 20, 20, 0.08);
+  --border-secondary: rgba(20, 20, 20, 0.12);
+  --border-tertiary: rgba(20, 20, 20, 0.08);
+  --border-neutral-secondary: rgba(20, 20, 20, 0.16);
+  --txt-default: #141414;
+  --txt-secondary: rgba(20, 20, 20, 0.56);
+  --txt-positive: #009900;
+  --txt-green-regular: #007800;
+  --bg-green-subtle: #e6f9e6;
+  --font-header: 'Barlow', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-pill: 512px;
+  --shadow-elevation: 0 0 8px rgba(0, 0, 0, 0.16);
+  --shadow-card: 0 0 4px rgba(0, 0, 0, 0.16);
+  --phone-width: 375px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>NRAB Alternatives</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">NRAB Research — Deals Alternatives</h1>
+    <div class="header__selector">
+      <label for="alternative-select">Alternative</label>
+      <select id="alternative-select">
+        <option value="pages/alternative-1.html">Alternative 1</option>
+        <option value="pages/alternative-2.html">Alternative 2</option>
+        <option value="pages/alternative-3.html">Alternative 3</option>
+        <option value="pages/alternative-truck.html">Alternative Truck</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="frame-container">
+    <div class="phone-frame">
+      <iframe id="preview-frame" src="pages/alternative-1.html" title="Alternative preview"></iframe>
+    </div>
+  </main>
+
+  <script>
+    const select = document.getElementById('alternative-select');
+    const frame = document.getElementById('preview-frame');
+
+    select.addEventListener('change', () => {
+      frame.src = select.value;
+    });
+  </script>
+</body>
+</html>

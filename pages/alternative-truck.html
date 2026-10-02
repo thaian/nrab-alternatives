@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Alternative Truck — Caminhão</title>
+  <link rel="stylesheet" href="../css/truck.css">
+</head>
+<body>
+  <header class="top-nav-yellow">
+    <div class="top-nav-yellow__row">
+      <div class="top-nav-yellow__back">
+        <img src="../assets/arrow-back.svg" alt="Voltar" width="24" height="24">
+      </div>
+      <div class="top-nav-yellow__center">
+        <h1 class="top-nav-yellow__title">Caminhão</h1>
+        <div class="top-nav-yellow__selector">
+          Loja Colmado
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="#141414" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="cards-area">
+    <div class="card">
+      <div class="seller-row">
+        <div class="seller-row__logo"><img src="../assets/partner-logo.png" alt="Nestlé"></div>
+        <div class="seller-row__name">
+          Nestlé
+          <span class="badge">6</span>
+        </div>
+      </div>
+      <div class="progress-block">
+        <p class="progress-label">O mínimo exigido foi atingido.</p>
+        <div class="progress-bar">
+          <div class="progress-bar__fill"></div>
+          <div class="progress-bar__check">
+            <svg viewBox="0 0 10 10" fill="none"><path d="M2 5l2.5 2.5L8 3" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="section-title">
+        Produtos
+        <span class="badge">6</span>
+      </div>
+
+      <div class="product-item">
+        <div class="product-item__top">
+          <img class="product-item__image" src="../assets/product.png" alt="ChocoCookies">
+          <div class="product-item__info">
+            <p class="product-item__name">ChocoCookies NESTLÉ Recheio de Avelã 100g</p>
+            <p class="product-item__meta">1x1 unidade • 100g</p>
+          </div>
+          <img class="product-item__close" src="../assets/close.svg" alt="Remover">
+        </div>
+        <div class="product-item__pricing">
+          <div class="product-item__price-row">
+            <div class="product-item__prices">
+              <p class="price-strikethrough">R$ 5,99</p>
+              <div class="price-current">
+                <span class="price-current__main">R$ 5,57</span>
+                <span class="price-current__unit">R$ 5,57/un</span>
+              </div>
+            </div>
+            <div class="quantifier-sm">
+              <button class="quantifier-sm__btn" type="button"><img src="../assets/minus.svg" alt="-"></button>
+              <span class="quantifier-sm__value">10</span>
+              <button class="quantifier-sm__btn" type="button"><img src="../assets/plus.svg" alt="+"></button>
+            </div>
+          </div>
+          <p class="product-item__subtotal">R$ 55,70</p>
+        </div>
+      </div>
+
+      <div class="product-divider"></div>
+
+      <div class="product-item">
+        <div class="product-item__top">
+          <img class="product-item__image" src="../assets/product.png" alt="ChocoCookies">
+          <div class="product-item__info">
+            <p class="product-item__name">ChocoCookies NESTLÉ Recheio de Avelã 100g</p>
+            <p class="product-item__meta">1 unidade • 40g</p>
+          </div>
+          <img class="product-item__close" src="../assets/close.svg" alt="Remover">
+        </div>
+        <div class="product-item__pricing">
+          <div class="product-item__price-row">
+            <div class="product-item__prices">
+              <p class="price-strikethrough">R$ 5,99</p>
+              <div class="price-current">
+                <span class="price-current__main">R$ 5,69</span>
+                <span class="price-current__unit">R$ 5,69/un</span>
+              </div>
+            </div>
+            <div class="quantifier-sm">
+              <button class="quantifier-sm__btn" type="button"><img src="../assets/minus.svg" alt="-"></button>
+              <span class="quantifier-sm__value">5</span>
+              <button class="quantifier-sm__btn" type="button"><img src="../assets/plus.svg" alt="+"></button>
+            </div>
+          </div>
+          <p class="product-item__subtotal">R$ 28,45</p>
+        </div>
+      </div>
+
+      <button class="btn-remove" type="button">
+        <span class="btn-remove__icon"><img src="../assets/close-yellow.svg" alt=""></span>
+        Remover tudo
+      </button>
+    </div>
+  </div>
+
+  <section class="summary">
+    <h2 class="summary__title">Resumo do pedido</h2>
+    <div class="summary__row">
+      <span>Subtotal (15 produtos)</span>
+      <span>R$ 84,15</span>
+    </div>
+    <div class="summary__row summary__row--green">
+      <span>Taxa de entrega</span>
+      <span>Grátis</span>
+    </div>
+    <div class="summary__divider"></div>
+    <div class="summary__row summary__total">
+      <span>Total estimado</span>
+      <span>R$ 84,15</span>
+    </div>
+    <p class="summary__legal">O preço final será calculado no checkout. O total estimado inclui quaisquer taxas diversas, impostos sobre vendas e federais. A legislação estadual prevalece sobre quaisquer discrepâncias de preços.</p>
+    <p class="summary__savings">Você está economizando R$ 5,70!</p>
+  </section>
+
+  <div class="fixed-tray">
+    <div class="tray">
+      <div class="tray__grabber"><div class="tray__grabber-bar"></div></div>
+      <div class="tray__content">
+        <div class="tray__label">
+          <div class="tray__label-title">
+            Total estimado
+            <img src="../assets/info.svg" alt="Info">
+          </div>
+          <p class="tray__label-value">R$ 84,15</p>
+        </div>
+        <button class="btn-continue" type="button">
+          Continuar
+          <span class="btn-continue__icon"><img src="../assets/arrow-right.svg" alt=""></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="bottom-nav-truck">
+    <div class="bottom-nav-truck__item"><img src="../assets/nav-home.svg" alt="Home" width="24" height="24"></div>
+    <div class="bottom-nav-truck__item"><img src="../assets/nav-user.svg" alt="Perfil" width="24" height="24"></div>
+    <div class="bottom-nav-truck__item"><img src="../assets/nav-gift.svg" alt="Presentes" width="24" height="24"></div>
+    <div class="bottom-nav-truck__item"><img src="../assets/nav-tag.svg" alt="Ofertas" width="24" height="24"></div>
+    <div class="bottom-nav-truck__item bottom-nav-truck__item--active">
+      <img src="../assets/nav-truck.svg" alt="Caminhão" width="24" height="24">
+      <span class="bottom-nav-truck__badge">15</span>
+    </div>
+  </nav>
+</body>
+</html>
